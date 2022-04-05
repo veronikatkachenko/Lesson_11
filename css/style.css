@@ -1,0 +1,97 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+	font-family: Roboto, sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+[class*="__container"] {
+	/* margin: 0px auto;
+	max-width: 1020px; */
+}
+.main__image{
+	display: block;
+	width: 100%;
+}
+.who-we-are {
+	
+}
+
+.who-we-are__block {
+	margin: 0px auto;
+	max-width: 1020px;
+	background: #5D62B5;
+	border-radius: 40px;
+	padding: 100px 87px 0px 87px;
+	position: relative;
+	top: -80px;
+	right: 0;
+}
+
+.block-content {
+	color: #fff;
+}
+
+.block-content__sub-title {
+	font-family: 'Roboto';
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	margin: 0px 0px 33px 0px;
+}
+.block-content__sub-title::before{
+content: "";
+width: 28px;
+height: 27px;
+display: inline-block;
+background: url(../img/icon.svg) 0 0 no-repeat;
+margin: 0px 10px -8px 0px;
+}
+.block-content__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	max-width: 583px;
+	margin: 0px 0px 36px 0px;
+}
+
+.block-content__text {
+	color: #F5F5F5;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+}
+.circles{
+	position: absolute;
+	top: -120px;
+	right: -76px;
+	width: 201px;
+	height: 317px;
+	background: url(../img/circles.svg) 0 0 no-repeat;
+}
+.image-bg {
+	background: url(../img/blob.png) 0 0 / cover no-repeat;
+	width: 514px;
+	height: 371px;
+	margin: -65px 0px 0px -90px;
+}
+
+.who-we-are__picture {
+	position: relative;
+	top: -345px;
+	right: 0;
+}
+
+.who-we-are__image {
+	display: block;
+	margin: 0 auto;
+	filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
+	border-radius: 40px;
+}
